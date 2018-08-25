@@ -18,6 +18,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public Mono<String> hello() {
-        return Mono.just("Welcome to reactive world ~");
+        return Mono.just("Welcome to reactive world ~~");
     }
 }
